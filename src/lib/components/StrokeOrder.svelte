@@ -13,7 +13,7 @@
 	});
 
 	function charToPath(char: string) {
-		return `/images/kanjivg/${char.charCodeAt(0).toString(16).padStart(5, '0')}.svg`;
+		return `./images/kanjivg/${char.charCodeAt(0).toString(16).padStart(5, '0')}.svg`;
 	}
 </script>
 
